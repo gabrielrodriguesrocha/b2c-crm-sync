@@ -166,6 +166,16 @@ module.exports = {
             "configProperty": null,
             "defaultType": "env"
         },
+        "b2cShortCode": {
+            "type": "b2c",
+            "required": false,
+            "minLength": 3,
+            "cli": "-bsc, --b2c-short-code <b2cshortcode>",
+            "description": "describes the B2C Commerce environment short code for SCAPI.",
+            "envProperty": "B2C_SHORTCODE",
+            "configProperty": null,
+            "defaultType": "env"
+        },
         "b2cInstanceName": {
             "type": "b2c",
             "required": false,
